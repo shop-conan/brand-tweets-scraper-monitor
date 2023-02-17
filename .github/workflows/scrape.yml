@@ -16,7 +16,7 @@ on:
 
     inputs:
       hashtags:
-        description: 'hashtags'
+        description: 'shein'
         type: enviroment
         required: True
       outdir:
@@ -24,8 +24,8 @@ on:
         type: enviroment
         required: True      
 #   push:  
-#   schedule:
-#   - cron: '0 0 * * *' # @daily
+  schedule:
+  - cron: '0 0 * * *' # @daily
 
 jobs:
   scheduled:
